@@ -1,0 +1,310 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20231205221856">
+    <link rel="stylesheet" href="css/style.min.css?_v=20231205221856">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20231205221856"></script>
+    <script defer src="js/app.min.js?_v=20231205221856"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="img/svgicons/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <div class="header__menu">
+                <a href="tel:+7 xxx xxx-xx-xx" class="header__phone">
+                    <img src="img/svgicons/phone-white.svg" alt="">
+                    <p>+7 xxx xxx-xx-xx</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+            <main class="content">
+                <section class="intro">
+                    <div class="container">
+                        <main class="intro__row">
+                            <div class="intro__info">
+                                <h1>Аутсорсинг бизнес-процессов</h1>
+                                <p>Логические решения - один из лидеров в области аутсорсинга и аутстаффинга персонала. Мы специализируемся на массовом и точечном рекрутинге, предоставлении персонала для складской, промышленной, офисной логистики и ритейла, а также производства, клининга и многих других направлений в сфере аутсорсинга и аутстаффинга. Мы оказываем комплексные услуги аутсорсинга персонала в 60 городах России.</p>
+                            </div>
+                            <div class="intro__bg">
+                                <picture><source srcset="img/intro/bg.webp" type="image/webp"><img src="img/intro/bg.jpg" alt="bg"></picture>
+                            </div>
+                        </main>
+                        <footer class="intro__bottom">
+                            <div class="intro__item">
+                                <img src="img/svgicons/years.svg" alt="">
+                                <div>
+                                    <h2>Более 10 лет на рынке</h2>
+                                    <p>Работаем с малым, средним и крупным бизнесом, взаимодействуем с государственными структурами</p>
+                                </div>
+                            </div>
+                            <div class="intro__item">
+                                <img src="img/svgicons/map.svg" alt="">
+                                <div>
+                                    <h2>География работы</h2>
+                                    <p>Мы оказываем услуги в 56 городах и населенных пунктах РФ</p>
+                                </div>
+                            </div>
+                            <div class="intro__item">
+                                <img src="img/svgicons/group.svg" alt="">
+                                <div>
+                                    <h2>Группа компаний «Юпитер и М»</h2>
+                                    <p>Численность привлеченного персонала составляет более 1 700 человек</p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+                <section class="services">
+                    <div class="container">
+                        <div class="services__row">
+                            <div class="title">
+                                Услуги для бинес процессов (ВРО)
+                            </div>
+                            <!-- <div class="services__links">
+                                <div class="services__link">
+                                    Интеллектуальный аутсорсинг (АБП)
+                                </div>
+                                <div class="services__link">
+                                    Аутсорсинг
+                                </div>
+                            </div> -->
+                            <div class="services__tabs">
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/1.webp" type="image/webp"><img src="img/tabs/1.webp" alt="tabs-1"></picture>
+                                    </div>
+                                    <h3>Услуги складской логистики</h3>
+                                    <p class="services__text">Складские погрузо-разгрузочные работы для производственных компаний</p>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>285 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/2.webp" type="image/webp"><img src="img/tabs/2.webp" alt="tabs-2"></picture>
+                                    </div>
+                                    <h3>Разнорабочие</h3>
+                                    <p class="services__text">С нашей помощью вы можете в любой момент решить вопросы привлечения разнорабочих</p>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>200 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/3.webp" type="image/webp"><img src="img/tabs/3.webp" alt="tabs-3"></picture>
+                                    </div>
+                                    <h3>Грузчики</h3>
+                                    <p class="services__text">Эффективное управление персоналом и юридическая ответственность на...</p>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>200 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/4.webp" type="image/webp"><img src="img/tabs/4.webp" alt="tabs-4"></picture>
+                                    </div>
+                                    <h3>Работники на конвейеры</h3>
+                                    <p class="services__text">Одним из немаловажных сотрудников на производстве является рабочий</p>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>250 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/5.webp" type="image/webp"><img src="img/tabs/5.webp" alt="tabs-5"></picture>
+                                    </div>
+                                    <h3>Услуги промышленным предприятиям</h3>
+                                    <p class="services__text">По запросу</p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/6.webp" type="image/webp"><img src="img/tabs/6.webp" alt="tabs-6"></picture>
+                                    </div>
+                                    <h3>Упаковщики</h3>
+                                    <p class="services__text">По запросу</p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/7.webp" type="image/webp"><img src="img/tabs/7.webp" alt="tabs-7"></picture>
+                                    </div>
+                                    <h3>Фасовщики</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/8.webp" type="image/webp"><img src="img/tabs/8.webp" alt="tabs-8"></picture>
+                                    </div>
+                                    <h3>Водители погрузчика</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/9.webp" type="image/webp"><img src="img/tabs/9.webp" alt="tabs-9"></picture>
+                                    </div>
+                                    <h3>Кладовщики</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/10.webp" type="image/webp"><img src="img/tabs/10.webp" alt="tabs-10"></picture>
+                                    </div>
+                                    <h3>Стикеровщики</h3>
+                                    <p class="services__text">По запросу</p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/11.webp" type="image/webp"><img src="img/tabs/11.webp" alt="tabs-11"></picture>
+                                    </div>
+                                    <h3>Комплектовщики</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/12.webp" type="image/webp"><img src="img/tabs/12.webp" alt="tabs-12"></picture>
+                                    </div>
+                                    <h3>Сортировщики</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/13.webp" type="image/webp"><img src="img/tabs/13.webp" alt="tabs-13"></picture>
+                                    </div>
+                                    <h3>Операторы 1С</h3>
+                                    <p class="services__text">Цена по запросу</p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/14.webp" type="image/webp"><img src="img/tabs/14.webp" alt="tabs-14"></picture>
+                                    </div>
+                                    <h3>Водители штаблера</h3>
+                                    <p class="services__price">
+                                        Цена: от
+                                        <b>350 руб.</b>
+                                        <span>за 1 сервис-час оказанных услуг</span>
+                                    </p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/15.webp" type="image/webp"><img src="img/tabs/15.webp" alt="tabs-15"></picture>
+                                    </div>
+                                    <h3>Приемщики</h3>
+                                    <p class="services__text">Цена по запросу</p>
+                                </div>
+                                <div class="services__tab">
+                                    <div class="services__img">
+                                        <picture><source srcset="img/tabs/15.webp" type="image/webp"><img src="img/tabs/15.webp" alt="tabs-15"></picture>
+                                    </div>
+                                    <h3>Сварищики</h3>
+                                    <p class="services__text">Цена по запросу</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="form">
+                    <div class="container">
+                        <form action="#" class="form__form">
+                            <div class="form__text">
+                                <div class="form__title">
+                                    Поможем подобрать персонал и ответим на все ваши вопросы
+                                </div>
+                                <p>
+                                    Мы свяжемся с вами в ближайшее время
+                                </p>
+                            </div>
+                            <div class="form__inputs">
+                                <label>
+                                    <p class="form__inputs-title">Ваш номер телефона</p>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        class="form__phone"
+                                        required
+                                    >
+                                </label>
+                                <div class="form__selects">
+                                    <p class="form__inputs-title">Через какой мессенджер с вами связаться</p>
+                                    <label class="form__checkbox checkbox">
+                                        <input
+                                            id="form__checkbox"
+                                            class="custom-checkbox"
+                                            type="radio"
+                                            name="type-calling"
+                                        >
+                                        <p data-lang="form-checkbox">Whatsapp</p>
+                                    </label>
+                                    <label class="form__checkbox checkbox">
+                                        <input
+                                            id="form__checkbox"
+                                            class="custom-checkbox"
+                                            type="radio"
+                                            name="type-calling"
+                                        >
+                                        <p data-lang="form-checkbox">Telegram</p>
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <p class="footer__copy">© ООО «Логические решения», 2023</p>
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>
